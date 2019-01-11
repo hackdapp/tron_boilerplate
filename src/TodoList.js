@@ -236,19 +236,11 @@ const DestroyBtn = styled(Button)`
 
 const PendingContainer = styled.div `
   position: fixed;
-  top: 0;
-  right: 0;
+  top: 1px;
+  font-size: 20px;
+  right: 1px;
 `;
 
 const Pending = styled.div `
   color: ${props => props.active ? props.activeColor || 'red' : '#c7c7c7'};
 `;
-
-// injectGlobal `
-// //   @import url('https://fonts.googleapis.com/css?family=Roboto');
-
-// //   body {
-// //     background-color: whitesmoke;
-// //     font-family: 'Roboto', sans-serif;
-// //   }
-// `

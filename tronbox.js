@@ -1,7 +1,7 @@
 module.exports = {
     networks: {
         development: {
-            privateKey: `e84df039ba10caa61bf61f15350a213da881e3a8c185347fcebe21b616d2d4ff`,
+            privateKey: `ed74f0f3021ad2b6d3c6e9481b7d69aeba414e544f063e5ba9eede07fdf20728`,
             consume_user_resource_percent: 30,
             fee_limit: 100000000,
 

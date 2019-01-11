@@ -8,8 +8,8 @@ const fullNode = new HttpProvider('http://127.0.0.1:8090');
 const solidityNode = new HttpProvider('http://127.0.0.1:8091');
 const eventServer = 'http://127.0.0.1:8092';
 
-const privateKey = "e84df039ba10caa61bf61f15350a213da881e3a8c185347fcebe21b616d2d4ff";
-const contractAddr = "TWq2U2iM4tcJvvCTiqgxSktV4zewd7XXyB";
+const privateKey = "217146ea4ae44ce4c00f93bcac99f5b3415372b86f58488861f3f41b7a81b5ee";
+const contractAddr = "TFyEw5qRRiZTJ5boLZJxZnv2hnhpBuvkjm";
 
 const tronWeb = new TronWeb(fullNode, solidityNode, eventServer, privateKey);
 
