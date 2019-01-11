@@ -1,5 +1,5 @@
-// var MyContract = artifacts.require("./MyContract.sol");
+var TodoList = artifacts.require("./TodoList.sol");
 
 module.exports = function(deployer) {
-  // deployer.deploy(MyContract);
+  deployer.deploy(TodoList);
 };

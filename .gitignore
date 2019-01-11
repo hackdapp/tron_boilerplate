@@ -2,5 +2,6 @@
 src/js/metacoin-config.js
 node_modules
 build
+.history
 .env
-
+output-directory
